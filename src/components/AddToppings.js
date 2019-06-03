@@ -29,6 +29,7 @@ class AddToppings extends Component {
 
     return (
       <Query
+        key={selectedPizza.name}
         query={GET_TOPPINGS_QUERY}
         variables={{
           pizzaSize: selectedPizza.name.toUpperCase(),

@@ -47,6 +47,7 @@ class OrderStore {
   @action
   setSize = size => {
     this.selectedPizza = size;
+    this.selectedToppings = {};
   };
 
   @action
