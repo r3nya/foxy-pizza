@@ -7,7 +7,7 @@
     "graphql": "^14.3.1",
     "hack": "^0.8.1",
     "lodash.capitalize": "^4.2.1",
-    "mobx": "^5.9.4",
+    "mobx": "^5.14.0",
     "mobx-react": "^6.0.3",
     "react": "^16.8.6",
     "react-apollo": "^2.5.6",
